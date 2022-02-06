@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(220,220,220);
+    
+}
+h1 {
+    margin-top: 30px;
+    font-family: 'Big Shoulders Text';
+    color: white;
+}
+h2 {
+    margin-top: 30px;
+    color: white;
+    font-family: 'lexend deca';
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.8;
+}
+@media screen and (min-width: 551px) {
+.container {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+.boxsedans {
+    background-color: rgb(226,133,37);
+}
+.boxsuvs {
+    background-color: rgb(0,105,113);
+}
+.boxlux {
+    background-color: rgb(0,64,62);
+}
+.info {
+    margin: 50px auto;
+    width: 195px;
+}
+button {
+    margin-top: 60px;
+    border-style: none;
+    border-radius: 100px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: white;
+    font-family: 'lexend deca';
+    font-weight: 600;
+}
+button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(0,0,0,0);
+}
+#btnsedan {
+    color: rgb(226,133,37);
+}
+    #btnsedan:hover {
+        color: white;
+    }
+#btnsuv {
+    color: rgb(0,105,113);
+}
+    #btnsuv:hover {
+        color: white;
+    }
+#btnlux {
+    color: rgb(0,64,62);
+}
+    #btnlux:hover {
+        color: white;
+    }
+.attribution {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 50%; transform: translatex(-50%);
+    bottom: 50px;
+}
+@media screen and (max-width: 550px) {
+    body {
+        height: 1550px;
+    }
+    .container {
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.541);
+        border-radius: 20px;
+        overflow: hidden;
+        width: 300px;
+        height: 1400px;
+        position: relative;
+        top: 75px;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .attribution {
+        width: 150px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 10px;
+    }
+}
